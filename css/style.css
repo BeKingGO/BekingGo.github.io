@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	font-size: 1.8rem;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 50px;
+	font-weight: 500;
+	padding-bottom: 50px;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.container {
+	margin: auto;
+	max-width: 900px;
+	overflow: auto;
+	padding: 0 5px;
+    text-align: center;
+}
+
+
+#navbar {
+	overflow: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#navbar a {
+	color: #000;
+}
+
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#showcase {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	padding: 100px;
+}
+
+#about {
+	padding: 10px 0;
+	background: #dedbdb90;
+}
+
+
+#contact {
+	padding: 20px 0;
+}
+
+.proyectos-row {
+	background: #dedbdb90;
+	text-align: center;
+}
+
+.contact-row {
+	display: flex;
+}
+.contact-row-icon {
+	width: 40%;
+	text-align: center;
+}
+
+.contact-row-icon img {
+	height: 60px;
+}
+
